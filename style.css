@@ -26,10 +26,11 @@ body{
     background: #1a1a1a;
 }
 .description button{
-    border:1px solid #F97300;
-    background:#F97300;
-    color:#fff;
+    border:1px solid #443266;
+    background:#443266;
+    color:#443266;
     }
+
 
 .link-group{
     list-style: none;
@@ -97,7 +98,7 @@ body{
     position: relative;
     }
     .about h1{
-    color:#F97300;
+    color:#C3C3E5;
     margin: 2em;
     }
     .about img{
@@ -107,21 +108,21 @@ body{
     }
     .about span{
     display: block;
-    color: #888;
+    color: #d9d9f3;
     position: absolute;
     left: 115px;
     }
     .about .desc{
     padding: 2em;
-    border-left:4px solid #10828C;
+    border-left:4px solid #443266;
     }
     .about .desc h3{
-    color: #10828C;
+    color: #C3C3E5;
     font-family: 'Arsenal', sans-serif;
     }
     .about .desc p{
     line-height:2;
-    color:#888;
+    color:#d9d9f3;
     font-family: 'Arsenal', sans-serif;
     }
 
