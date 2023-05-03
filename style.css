@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100%;
     max-width: 1400px;
     display: block;
@@ -14,7 +14,7 @@ body{
     font-family: 'Arsenal', sans-serif;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     position: fixed;
     top: 0;
@@ -25,19 +25,20 @@ body{
     z-index: 9;
     background: #1a1a1a;
 }
-.description button{
-    border:1px solid #443266;
-    background:#443266;
-    color:#443266;
-    }
+
+.description button {
+    border: 1px solid #443266;
+    background: #443266;
+    color: #443266;
+}
 
 
-.link-group{
+.link-group {
     list-style: none;
     display: flex;
 }
 
-.link a{
+.link a {
     color: #d9d9f3;
     opacity: 0.5;
     text-decoration: none;
@@ -49,11 +50,12 @@ body{
     font-size: 20px;
 }
 
-.link a:hover, .link.active a{
+.link a:hover,
+.link.active a {
     opacity: 1;
 }
 
-.home-section{
+.home-section {
     width: 100%;
     height: 100vh;
     padding: 0 150px;
@@ -66,14 +68,14 @@ body{
     position: fixed;
 }
 
-.hero-heading{
+.hero-heading {
     color: #d9d9f3;
     font-size: 70px;
     font-family: 'Arsenal', sans-serif;
     font-weight: 250;
 }
 
-.home-img{
+.home-img {
     position: absolute;
     top: 0;
     right: 0;
@@ -86,44 +88,53 @@ body{
 .home-section.active,
 .project-section.active,
 .about-section.active,
-.contact-section.active{
+.contact-section.active {
     position: relative;
     opacity: 1;
     z-index: 8;
 }
 
-.about{
+.about {
     margin: 4em 0;
     padding: 1em;
     position: relative;
-    }
-    .about h1{
-    color:#C3C3E5;
+}
+
+.about h1 {
+    color: #C3C3E5;
     margin: 2em;
-    }
-    .about img{
+}
+
+.about img {
     height: 100%;
     width: 100%;
     border-radius: 50%
-    }
-    .about span{
+}
+
+.about span {
     display: block;
     color: #d9d9f3;
     position: absolute;
     left: 115px;
-    }
-    .about .desc{
+}
+
+.about .desc {
     padding: 2em;
-    border-left:4px solid #443266;
-    }
-    .about .desc h3{
+    border-left: 4px solid #443266;
+}
+
+.about .desc h3 {
     color: #C3C3E5;
     font-family: 'Arsenal', sans-serif;
-    }
-    .about .desc p{
-    line-height:2;
-    color:#d9d9f3;
-    font-family: 'Arsenal', sans-serif;
-    }
-    #p1{color:#525252;}
+}
 
+.about .desc p {
+    line-height: 2;
+    color: #d9d9f3;
+    font-family: 'Arsenal', sans-serif;
+}
+
+#p1 {
+    color: #525252;
+    font-family: 'Arsenal', sans-serif;
+}
