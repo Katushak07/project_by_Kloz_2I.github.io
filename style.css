@@ -25,6 +25,11 @@ body{
     z-index: 9;
     background: #1a1a1a;
 }
+.description button{
+    border:1px solid #F97300;
+    background:#F97300;
+    color:#fff;
+    }
 
 .link-group{
     list-style: none;
