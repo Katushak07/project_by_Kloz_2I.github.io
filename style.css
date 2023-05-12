@@ -26,9 +26,6 @@ body {
     background: #1a1a1a;
 }
 
-
-
-
 .link-group {
     list-style: none;
     display: flex;
@@ -99,6 +96,10 @@ body {
 .about h1 {
     color: #C3C3E5;
     margin: 2em;
+}
+
+.about h3 {
+    color: #7A57D1;
 }
 
 .about img {
