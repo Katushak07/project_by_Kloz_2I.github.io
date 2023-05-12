@@ -26,9 +26,6 @@ body {
     background: #1a1a1a;
 }
 
-
-
-
 .link-group {
     list-style: none;
     display: flex;
@@ -101,10 +98,18 @@ body {
     margin: 2em;
 }
 
+.about h3 {
+    color: #7A57D1;
+}
+
 .about img {
     height: 100%;
     width: 100%;
     border-radius: 50%
+}
+
+.img-fluid {
+    text-align: center;
 }
 
 .about span {
