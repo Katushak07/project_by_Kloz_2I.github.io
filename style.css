@@ -98,6 +98,10 @@ body {
     margin: 2em;
 }
 
+.about h3 {
+    color: #7A57D1;
+}
+
 .about img {
     height: 100%;
     width: 100%;
