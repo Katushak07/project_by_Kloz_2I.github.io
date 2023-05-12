@@ -108,6 +108,10 @@ body {
     border-radius: 50%
 }
 
+.img-fluid {
+    text-align: center;
+}
+
 .about span {
     display: block;
     color: #d9d9f3;
